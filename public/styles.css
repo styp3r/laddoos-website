@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navbar{
+    width: 100%;
+    height: 5rem;
+    background-color: red;
+    position: fixed;
+}
+
+.navbarContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;   
+}
+
+.logoContainer, .navItemsContainer{
+    display: inline-block;
+}
+
+.logoContainer{
+    position: absolute;
+    left: 5rem;
+    padding: 1rem;
+}
+
+.navItems{
+    display: inline-block;
+    padding: 1rem;
+}
+
+#home, #products, #about, #contact{
+    padding: 0 1rem 0 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+#home:hover, #products:hover, #about:hover, #contact:hover{
+    color: black;
+}
+
+.heroContent{
+    width: 100%;
+    height: 40rem;
+    background-color: blue;
+}
+
+.introContainer, .categoriesContainer, .best, .offers{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center; 
+}
+
+.intro{
+    width: 20rem;
+    height: 30rem;
+}
+
+.catItem, .buyItem, .offerItemContainer{
+    padding: 0 10rem 0 10rem;
+}
+
+.decoration{
+    width: 100%;
+    height: 30rem;
+    background-color: yellow;
+}
+
+.btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2rem;
+}
+
+.offerItem{
+    width: 25rem;
+    height: 15rem;
+    background-color: green;
+}
+
+.offers{
+    margin-top: 10rem;
+}
+
+.footer{
+    width: 100%;
+    height: 20rem;
+    background-color: grey;
+    margin-top: 10rem;
+}
