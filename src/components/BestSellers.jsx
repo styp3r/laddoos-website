@@ -5,9 +5,9 @@ function BestSellers(){
     return (
         <div>
             <div className = "best">
-                <BuyItem image = "#" title = "One" price = "Rs. 0.00"/>
-                <BuyItem image = "#" title = "Two" price = "Rs. 0.00"/>
-                <BuyItem image = "#" title = "Three" price = "Rs. 0.00"/>
+                <BuyItem image = "https://bit.ly/3h4NOw9" title = "One"/>
+                <BuyItem image = "https://bit.ly/3h4NOw9" title = "Two"/>
+                <BuyItem image = "https://bit.ly/3h4NOw9" title = "Three"/>
             </div>
             <button className = "btn">View All</button>
         </div>

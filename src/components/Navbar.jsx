@@ -1,11 +1,13 @@
 import React from 'react';
 
 function Navbar(){
-    return (
+    return (<div>
+        <div className = "order">ORDER ONLINE OR CALL US 1234567890
+        </div>
         <div className = "navbar">
             <div className = "navbarContainer">
                 <div className = "logoContainer">
-                    <img className = "logo" src = "#"/>
+                    <img className = "logo" src = "https://bit.ly/3h4NOw9" width = "50" height = "50"/>
                 </div>
                 <div className = "navItemsContainer">
                     <div className = "navItems">
@@ -16,6 +18,7 @@ function Navbar(){
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 }
