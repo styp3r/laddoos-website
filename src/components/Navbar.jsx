@@ -5,6 +5,7 @@ function Navbar(){
     return (<div>
         <div className = "order">ORDER ONLINE OR CALL US +91 99452 58005
         </div>
+        <hr/>
         <div className = "navbar">
             <div className = "navbarContainer">
                 <div className = "logoContainer">

@@ -4,14 +4,28 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+hr{
+    margin: 0;
+    background-color: #ff6666;
+    height: 1px;
+    border: none;
+}
+
 img{
     object-fit: cover;
+}
+
+.roundedCorners{
+    border-radius: 10px;
 }
 
 .order{
     width: 100%;
     height: 2rem;
-    background-color: purple;
+    padding: 1rem 0 0 1rem;
+    background-color: red;
+    font-size: small;
+    color: white;
 }
 
 .navbar{
@@ -50,7 +64,7 @@ img{
 }
 
 #home:hover, #products:hover, #about:hover, #contact:hover{
-    color: black;
+    color: #ffb3b3;
 }
 
 .heroContent{
@@ -66,19 +80,57 @@ img{
     text-align: center; 
 }
 
+.spacing{
+    padding: 0 0 10rem 0;
+}
+
 .intro{
     width: 50rem;
-    height: 30rem;
+    height: 40rem;
+    line-height: 2rem;
+    margin-top: 7rem;
+}
+
+.redHeading{
+    color: #ff6666;
+}
+
+.thin{
+    font-weight: lighter;
+    font-size: 5rem;
+}
+
+.bold{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+}
+
+.shopNow{
+    margin-top: 3rem;
 }
 
 .catItem, .buyItem, .offerItemContainer{
-    padding: 0 10rem 0 10rem;
+    padding: 0 2rem 0 2rem;
 }
 
 .decoration{
     width: 100%;
-    height: 30rem;
+    height: 46rem;
     background-color: yellow;
+}
+
+.decText{
+    position: absolute;
+    left: 10rem;
+    width: 50rem;
+    font-weight: lighter;
+    margin-top: 10rem;
+}
+
+.decBtn{
+    position: absolute;
+    left: 10rem;
+    margin-top: 20rem;
 }
 
 .btn{
