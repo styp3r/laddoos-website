@@ -116,7 +116,6 @@ img{
 .decoration{
     width: 100%;
     height: 46rem;
-    background-color: yellow;
 }
 
 .decText{
@@ -138,6 +137,12 @@ img{
     left: 50%;
     transform: translateX(-50%);
     margin-top: 2rem;
+}
+
+.bestsellerHeading{
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+    color: #ff6666;
 }
 
 .offerItem{
