@@ -1,13 +1,14 @@
 import React from 'react';
+import Logo from '../images/laddoosLogo1.jpg';
 
 function Navbar(){
     return (<div>
-        <div className = "order">ORDER ONLINE OR CALL US 1234567890
+        <div className = "order">ORDER ONLINE OR CALL US +91 99452 58005
         </div>
         <div className = "navbar">
             <div className = "navbarContainer">
                 <div className = "logoContainer">
-                    <img className = "logo" src = "https://bit.ly/3h4NOw9" width = "50" height = "50"/>
+                    <img className = "logo" src = {Logo} width = "200" height = "50"/>
                 </div>
                 <div className = "navItemsContainer">
                     <div className = "navItems">
