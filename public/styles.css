@@ -4,13 +4,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-hr{
-    margin: 0;
-    background-color: #ff6666;
-    height: 1px;
-    border: none;
-}
-
 img{
     object-fit: cover;
 }
@@ -19,13 +12,14 @@ img{
     border-radius: 10px;
 }
 
-.order{
-    width: 100%;
-    height: 2rem;
-    padding: 1rem 0 0 1rem;
-    background-color: red;
-    font-size: small;
+.fa-shopping-cart{
     color: white;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.fa-shopping-cart:hover{
+    color: #ffb3b3;
 }
 
 .navbar{
@@ -36,8 +30,9 @@ img{
 
 .navbarContainer{
     display: flex;
-    justify-content: center;
-    align-content: center;   
+    justify-content: right;
+    align-content: center;  
+    margin-right: 5rem; 
 }
 
 .logoContainer, .navItemsContainer{
