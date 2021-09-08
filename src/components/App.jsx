@@ -12,31 +12,21 @@ import ReviewsContent from '../reviews.js';
 
 function App(){
 
-    var count = 0;
-    const [reviewItem, updateReviewItem] = useState(ReviewsContent[count]);
+    const [count, updateCount] = useState(0);
+    const [review, updateReview] = useState(ReviewsContent[count]);
 
-    function updateImage(){
-        const interval1 =  setTimeout(function(){ 
-            updateReviewItem(ReviewsContent[count + 1]);
-            count = count + 1; //1
-            if(count == (ReviewsContent.length-1)){
-                count = 0;
-            }
-            clearInterval(interval1);
-        }, 1000);
-        return reviewItem.img;
-    }
 
     function updateText(){
-        const interval2 = setInterval(function(){
-            updateReviewItem(ReviewsContent[count + 1]);
-            count = count + 1;
-            if(count == (ReviewsContent.length-1)){
-                count = 0;
-            }
-            clearInterval(interval2);
-        }, 1000);
-        return reviewItem.text;
+        var interval = setInterval(function(){
+            if(count == ReviewsContent.length-1){
+                updateCount(0);
+            } else{
+                updateCount(count + 1);
+            } 
+            updateReview(ReviewsContent[count]); 
+            clearInterval(interval);
+        }, 5000);
+        return review.img;
     }
 
     return (
@@ -47,7 +37,7 @@ function App(){
             <Categories />
             <Decoration />
             <BestSellers />
-            <Reviews img = {updateImage()} text = {updateText()}/>
+            <Reviews img = {updateText()} text = {review.text}/>
             <Offers />
             <Footer />
         </div>
