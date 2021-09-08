@@ -65,7 +65,6 @@ img{
 .heroContent{
     width: 100%;
     height: 40rem;
-    background-color: blue;
 }
 
 .heroText{
@@ -76,12 +75,40 @@ img{
     color: white;
     padding: 2rem 5rem 5rem 2rem;
     border-radius: 10px;
+    z-index: 2;
 }
 
 .heroButton{
     position: absolute;
     bottom: 3rem;
     left: 7rem;
+    z-index: 2;
+}
+
+.heroImageTransition {
+    animation: fadeInAnimation ease 1s;
+}
+
+.heroImageTransition1 {
+    animation: fadeOutAnimation ease 1s;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 .introContainer, .categoriesContainer, .best, .offers{
