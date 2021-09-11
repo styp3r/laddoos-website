@@ -10,6 +10,7 @@ import Offers from './Offers.jsx';
 import Footer from './Footer.jsx';
 import Sweet11 from '../images/sweet11.jpg';
 import Chaat1 from '../images/chaat1.jpg';
+import Copyright from './Copyright.jsx';
 
 function App(){
 
@@ -25,6 +26,7 @@ function App(){
             <Reviews />
             <Offers />
             <Footer />
+            <Copyright />
         </div>
     );
 }

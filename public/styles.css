@@ -348,3 +348,7 @@ img{
     background-color: white;
     z-index: 1;
 }
+
+.copyright{
+    text-align: center;
+}
