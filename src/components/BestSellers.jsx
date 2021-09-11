@@ -1,10 +1,12 @@
 import React from 'react';
 import BuyItem from './BuyItem.jsx';
 import Button from './Button.jsx';
+import MandalaLeft from '../images/mandalaLeft.png';
 
 function BestSellers(){
     return (
         <div className = "bestDiv">
+        <img className = "mandalaLeft" src = {MandalaLeft} width = "350" height = "350"/>
             <h1 className = "bestsellerHeading">Our Best Sellers</h1>
             <div className = "bestContainer spacing">
             
