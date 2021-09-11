@@ -8,6 +8,8 @@ import BestSellers from './BestSellers.jsx';
 import Reviews from './Reviews.jsx';
 import Offers from './Offers.jsx';
 import Footer from './Footer.jsx';
+import Sweet11 from '../images/sweet11.jpg';
+import Chaat1 from '../images/chaat1.jpg';
 
 function App(){
 
@@ -17,8 +19,9 @@ function App(){
             <Hero />
             <Intro />
             <Categories />
-            <Decoration />
+            <Decoration img = {Sweet11}/>
             <BestSellers />
+            <Decoration img = {Chaat1}/>
             <Reviews />
             <Offers />
             <Footer />

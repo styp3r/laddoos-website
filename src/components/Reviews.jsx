@@ -18,7 +18,7 @@ function Reviews(){
             clearInterval(interval);
         }, 5000);
         if(state === 0){
-        return review.img;
+            return review.img;
         } else if(state === 1){
             return review.text;
         } else{
@@ -28,6 +28,7 @@ function Reviews(){
 
     return(
         <div className = "reviewsContainer">
+            <h1 className = "reviewHeader">-Customer Reviews-</h1>
             <ReviewCard img = {update(0)} text = {update(1)} rating = {update(2)}/>
         </div>
     );

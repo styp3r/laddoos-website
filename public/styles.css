@@ -9,7 +9,7 @@ img{
 }
 
 .roundedCorners{
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .fa-shopping-cart{
@@ -25,7 +25,7 @@ img{
 .navbar{
     width: 100%;
     height: 7rem;
-    background-color: red;
+    background-color: #ff0067;
 }
 
 .navbarContainer{
@@ -46,6 +46,11 @@ img{
     margin-top: 0.5rem;
 }
 
+.logo{
+    border: solid thin;
+    border-color: white;
+}
+
 .navItems{
     display: inline-block;
     padding: 1rem;
@@ -59,7 +64,7 @@ img{
 }
 
 #home:hover, #products:hover, #about:hover, #contact:hover{
-    color: #ffb3b3;
+    color: #ff0067;
 }
 
 .heroContent{
@@ -74,15 +79,22 @@ img{
     margin: 0;
     color: white;
     padding: 2rem 5rem 5rem 2rem;
-    border-radius: 10px;
+    border-radius: 5px;
     z-index: 2;
+    background-image: linear-gradient(60deg, #ff0067, #2eb8b8);
 }
 
 .heroButton{
     position: absolute;
     bottom: 3rem;
     left: 7rem;
+    background-color: #2eb8b8;
+    color: white;
+    border: none;
+    cursor: pointer;
     z-index: 2;
+    padding: 0.5rem;
+    border-radius: 5px;
 }
 
 .heroImageTransition {
@@ -111,7 +123,7 @@ img{
      }
 }
 
-.introContainer, .categoriesContainer, .best, .offers{
+.introContainer, .categoriesContainer, .bestContainer, .offers{
     display: flex;
     justify-content: center;
     align-content: center;
@@ -130,7 +142,7 @@ img{
 }
 
 .redHeading{
-    color: #ff6666;
+    color: #ff0067;
 }
 
 .thin{
@@ -145,15 +157,40 @@ img{
 
 .shopNow{
     margin-top: 3rem;
+    background-color: #2eb8b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 5px;
 }
 
 .catItem, .buyItem, .offerItemContainer{
     padding: 0 2rem 0 2rem;
 }
 
+.catDiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.categoriesContainer{
+    padding: 10rem;
+}
+
+.bestContainer{
+    padding: 10rem;
+}
+
+.categoriesHeader{
+    position: absolute;
+    color: #ff0067;
+}
+
 .decoration{
     width: 100%;
-    height: 46rem;
+    height: 30rem;
 }
 
 .decText{
@@ -161,26 +198,43 @@ img{
     left: 10rem;
     width: 50rem;
     font-weight: lighter;
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
 
 .decBtn{
     position: absolute;
     left: 10rem;
-    margin-top: 20rem;
+    margin-top: 25rem;
+    background-color: #2eb8b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 5px;
 }
 
 .btn{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 2rem;
+    margin-top: 35rem;
+    background-color: #2eb8b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.bestDiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .bestsellerHeading{
-    margin-left: 10rem;
-    margin-bottom: 3rem;
-    color: #ff6666;
+    position: absolute;
+    color: #ff0067;
 }
 
 .reviewsContainer{
@@ -189,7 +243,6 @@ img{
     align-content: center;
     width: 100%;
     height: 25rem;
-    margin-top: 15rem;
 }
 
 .reviewCard{
@@ -197,9 +250,14 @@ img{
     width: 50rem;
     height: 20rem;
     background-color: #f2f2f2;
-    margin-top: 2rem;
-    border-radius: 10px;
+    margin-top: 10rem;
+    border-radius: 5px;
     box-shadow: 0px 0px 20px #999999;
+}
+
+.reviewHeader{
+    position: absolute;
+    color: #ff0067;
 }
 
 .imgCrop{ 
@@ -208,7 +266,7 @@ img{
     width: 6rem;
     height: 6rem;
     border: solid;
-    border-color: #ff6666;
+    border-color: #2eb8b8;
     border-width: 0.3rem;
 }
 
@@ -228,8 +286,53 @@ img{
 }
 
 .footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
     width: 100%;
-    height: 20rem;
-    background-color: red;
+    height: 50rem;
+    background-color: #ff0067;
     margin-top: 10rem;
+}
+
+.footerContainer{
+    position: absolute;
+    left: 5rem;
+    margin-top: 15rem;
+    width: 15rem;
+}
+
+.footerExtrusion{
+    position: absolute;
+    width: 50rem;
+    height: 10rem;
+    background-color: #2eb8b8;
+    z-index: 2;
+    border-radius: 5px;
+    padding: 1rem 2rem 0 2rem;
+    color: white;
+    text-align: center;
+}
+
+.footerOrderBtn{
+    background-color: #2eb8b8;
+    color: white;
+    border: solid white;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.fInline{
+    margin-top: 2rem;
+    width: 15rem;
+    color: white;
+}
+
+.whiteBg{
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    background-color: white;
+    z-index: 1;
 }
