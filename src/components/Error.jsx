@@ -2,7 +2,10 @@ import React from 'react';
 
 function Error(){
 
-    return (<h1>Error 404 not found</h1>);
+    return (<div className = "error404">
+    <h1>404</h1>
+    <p>Oops! We are sorry. The page you requested could not be found :(</p>
+    </div>);
 }
 
 export default Error;
