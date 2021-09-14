@@ -14,6 +14,7 @@ import Copyright from './Copyright.jsx';
 
 
 function Landing(){
+
     return(
         <div>
             <Hero />

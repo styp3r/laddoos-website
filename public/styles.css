@@ -438,5 +438,20 @@ img{
     margin-top: 10rem;
 }
 
+.singleItem{
+    padding: 1rem;
+    margin: 2rem;
+    display: inline-block;
+    text-align: center;
+    border: #d9d9d9 solid;
+    border-radius: 5px;
+}
+
+.itemListRight{
+    position: absolute;
+    right: 0;
+    width: 76rem;
+}
+
 
 
