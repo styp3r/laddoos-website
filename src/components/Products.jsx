@@ -9,61 +9,7 @@ function Products(){
     return (
         <div className = "itemListRight">
             <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
+            
         </div>);
 }
 

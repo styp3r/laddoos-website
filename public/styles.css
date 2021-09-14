@@ -9,6 +9,12 @@
     font-size: 14px;
 }
 
+.quantity{
+    width: 3rem;
+    margin-right: 0.5rem;
+    padding: 0.4rem;
+}
+
 body{
     margin: 0;
     overflow-x: hidden;
@@ -451,6 +457,15 @@ img{
     position: absolute;
     right: 0;
     width: 76rem;
+}
+
+.addToCart{
+    background-color: #2eb8b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 5px;
 }
 
 
