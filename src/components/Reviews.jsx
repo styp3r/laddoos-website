@@ -9,7 +9,7 @@ function Reviews(){
 
     function update(state){
         var interval = setInterval(function(){
-            if(count == ReviewsContent.length-1){
+            if(count === ReviewsContent.length-1){
                 updateCount(0);
             } else{
                 updateCount(count + 1);

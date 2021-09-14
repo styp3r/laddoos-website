@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../images/laddoosLogo1.jpg';
 
 function Navbar(){
+
     return (<div>
         <div className = "navbar">
             <div className = "navbarContainer">
@@ -12,7 +13,7 @@ function Navbar(){
                     <div className = "navItems">
                         <a id = "home" href = "#">Home</a>
                         <a id = "products" href = "#">Menu</a>
-                        <a id = "products" href = "#">Order Online</a>
+                        <a id = "onlineOrder" href = "#">Order Online</a>
                         <a id = "about" href = "#">About Us</a>
                         <a id = "contact" href = "#">Contact Us</a>
                     </div>
