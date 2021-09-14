@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Sweet7 from '../images/sweet7.jpg';
 import Sweet8 from '../images/sweet8.jpg';
 import Button from './Button.jsx';
+import {Link} from 'react-router-dom';
 
 
 
@@ -33,7 +34,7 @@ function Hero(){
         <div className = "heroContent">
             <div>
                 <h1 className = "heroText">Taste the goodness at Laddoos.</h1>
-                <Button cName = "heroButton" buttonText = "Explore Menu"/>
+                <Link to="/products"><Button type = "button" cName = "heroButton" buttonText = "Explore Menu"/></Link>
             </div>
             <img className = {animate} src = {changeHero()} width = "100%" height = "100%"/>
         </div>

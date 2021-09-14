@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../images/laddoosLogo1.jpg';
+import { Link } from 'react-router-dom';
 
 function Navbar(){
 
@@ -11,11 +12,11 @@ function Navbar(){
                 </div>
                 <div className = "navItemsContainer">
                     <div className = "navItems">
-                        <a id = "home" href = "#">Home</a>
-                        <a id = "products" href = "#">Menu</a>
-                        <a id = "onlineOrder" href = "#">Order Online</a>
-                        <a id = "about" href = "#">About Us</a>
-                        <a id = "contact" href = "#">Contact Us</a>
+                        <Link id = "home" to="/">Home</Link>
+                        <Link id = "products" to="/products">Menu</Link>
+                        <Link id = "onlineOrder" to="/onlineOrder">Order Online</Link>
+                        <Link id = "about" to="/about">About Us</Link>
+                        <Link id = "contact" to="/contact">Contact Us</Link>
                     </div>
                 </div>
                 <a href = "#"><i class="fas fa-shopping-cart"></i></a>
