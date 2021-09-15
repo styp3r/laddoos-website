@@ -19,7 +19,7 @@ function Navbar(){
                         <Link id = "contact" to="/contact">Contact Us</Link>
                     </div>
                 </div>
-                <a href = "#"><i class="fas fa-shopping-cart"></i></a>
+                <Link id = "cart" to="/cart"><i class="fas fa-shopping-cart"></i></Link>
             </div>
         </div>
         </div>

@@ -1,17 +1,29 @@
 import React, {useState} from 'react';
+import CartSummary from '../CartSummary.js';
  
 function ItemBuy(props){
     
     const [quant, updateQ] = useState(0);
 
+    var cartItem = {
+        id: CartSummary.length,
+        title: props.title,
+        name: props.name,
+        price: props.price,
+        //totalPrice: quant*(props.price)
+    };
+
     var val = 0;
     function updateQuant(){
         val = document.getElementById(props.name).value;
         updateQ(val);
+
     }
 
     function updateCart(){
-        alert("Quantity of "+props.title+" = " + quant);
+        //send order details to cart
+        CartSummary.push(cartItem);
+        alert("Quantity of "+props.title+" = " + quant + "\nPayment systems are currently offline.");
     }
 
 

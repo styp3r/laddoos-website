@@ -7,6 +7,7 @@ import Contact from './Contact.jsx';
 import Error from './Error.jsx';
 import { Route, Switch } from 'react-router-dom';
 import Navbar from './Navbar.jsx';
+import Cart from './Cart.jsx';
 
 function App(){
 
@@ -18,6 +19,7 @@ function App(){
             <Route path="/onlineOrder" component={OnlineOrder} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
+            <Route path="/cart" component={Cart} />
             <Route component={Error}/>
     </Switch>
         </div>);

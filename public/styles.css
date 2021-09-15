@@ -488,5 +488,10 @@ img{
     border-radius: 5px;
 }
 
+.cartItemTitle, .subtractQuant, .cartQuant, .addQuant, .itemPrice, .totalPricePerItem, .deleteItem{
+    display: inline-block;
+    margin-left: 2rem;
+}
+
 
 

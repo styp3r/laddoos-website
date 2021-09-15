@@ -17,7 +17,7 @@ function Reviews(){
             } 
             updateReview(ReviewsContent[count]); 
             clearInterval(interval);
-        }, 4000);
+        }, 5000);
         if(state === 0){
             return review.img;
         } else if(state === 1){
