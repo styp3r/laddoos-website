@@ -493,5 +493,9 @@ img{
     margin-left: 2rem;
 }
 
+#allProducts{
+    text-decoration: none;
+    color: black;
+}
 
 
