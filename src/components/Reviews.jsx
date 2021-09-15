@@ -1,6 +1,7 @@
 import React , {useState} from 'react';
 import ReviewCard from './ReviewCard.jsx'; 
 import ReviewsContent from '../reviews.js'; 
+import QuotePic from '../images/quotePic.png';
 
 function Reviews(){
 
@@ -16,7 +17,7 @@ function Reviews(){
             } 
             updateReview(ReviewsContent[count]); 
             clearInterval(interval);
-        }, 5000);
+        }, 4000);
         if(state === 0){
             return review.img;
         } else if(state === 1){
@@ -28,8 +29,9 @@ function Reviews(){
 
     return(
         <div className = "reviewsContainer">
-            <h1 className = "reviewHeader">-Customer Reviews-</h1>
-            <ReviewCard img = {update(0)} text = {update(1)} rating = {update(2)}/>
+                <img className = "quotePic" src = {QuotePic} width= "350" height= "300"/>
+                <h1 className = "reviewHeader">Customer Reviews</h1>
+                <ReviewCard img = {update(0)} text = {update(1)} rating = {update(2)}/>
         </div>
     );
 }
