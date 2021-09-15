@@ -1,6 +1,6 @@
 import React from 'react';
 import Item from './Item.jsx';
-import products from '../products.js';
+import MenuProducts from '../MenuProducts.js';
 
 function Products(){
 
@@ -8,8 +8,12 @@ function Products(){
 
     return (
         <div className = "itemListRight">
-            <Item title = {products[0].title} img = {products[0].img} price = {products[0].price}/>
-            
+            <Item title = {MenuProducts[0].title} img = {MenuProducts[0].img} />
+            <Item title = {MenuProducts[1].title} img = {MenuProducts[1].img} />
+            <Item title = {MenuProducts[2].title} img = {MenuProducts[2].img} />
+            <Item title = {MenuProducts[0].title} img = {MenuProducts[0].img} />
+            <Item title = {MenuProducts[1].title} img = {MenuProducts[1].img} />
+            <Item title = {MenuProducts[2].title} img = {MenuProducts[2].img} />
         </div>);
 }
 
